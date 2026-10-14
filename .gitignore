@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.vercel/
+node_modules/
+dist/
+coverage/
+.vite/
+playwright-report/
+.DS_Store
+Thumbs.db
+*.log
+
+.vercel
+
+# generated admin credentials (backend/seed_data.py)
+ADMIN_CREDENTIALS.txt
